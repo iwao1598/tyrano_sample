@@ -1,45 +1,73 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="きみにきめた!"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「きみにきめた！」[l][r]
 
-メロスは激怒した。[l][r]
+今日は僕が冒険へ旅立つ日。[l][r]
+僕の最初の相棒は...[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
 
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sneak] →インランドタイパン [endlink][r]
+[link target=*tag_buta] →イベリコ豚 [endlink][r]
+[link target=*tag_takashi] →たかし [endlink][r]
 [s]
 
-*tag_sleep
+*tag_sneak
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+インランドタイパン。名前のかっこよさだけで選んでしまった。[l][r]
+インランドタイパンは僕と目が合うとすぐに僕の腕にかみついてきた。[1][r]
+やれやれ,かわいいやつだなあ。[1][r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+[cm]
+
+[bg storage=snake1.png time=500]
+
+えっ[1][r]
+インランドタイパンは世界最強の毒蛇だって？？[1][r]
+それ[1][r]
+早くいってよー[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_buta
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+
+美味しそうだったのでイベリコ豚を選んだ。[l][r]
+冒険に出る前にいったんこいつを連れて家に帰ろう。[1][r]
+・・・[1][r]
+
+[cm]
+
+[bg storage=buta1.jpg time=500]
+
+いただきます。[r]
+
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_takashi
+
+[cm]
+
+親友のたかしと旅に出ることにした。[1][r]
+ちょっぴりドジだけど、いざとなったら頼りになるやつだ。[1][r]
+・・・[1][r]
+
+[cm]
+
+[bg storage=takashi1.png time=500]
+
+僕はたかしといつまでも幸せな旅をつづけた。[r]
 
 【 GOOD END 】[l][cm]
 
